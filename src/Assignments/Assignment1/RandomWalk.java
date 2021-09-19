@@ -54,7 +54,7 @@ public class RandomWalk {
      */
     public double distance() {
         // TO BE IMPLEMENTED
-        double n ;
+        double n = 0.0d;
         double n2=Math.pow((double) x,2d)+Math.pow((double) y,2d);
         n=Math.sqrt(n2);
         return n;
