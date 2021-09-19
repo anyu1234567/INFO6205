@@ -12,8 +12,9 @@ nal)
 ![6test](https://user-images.githubusercontent.com/50298195/133913280-f63c7721-e922-4870-a1d6-22f9d4d80a91.PNG)
 <br>
 2.Graphical Representation
-![conclusion](https://user-images.githubusercontent.com/50298195/133913269-86858ad7-11e1-4c4b-8453-c249a965bb38.PNG)
-<br>
+![conclusion](https://user-images.githubusercontent.com/50298195/133913269-86858ad7-11e1-4c4b-8453-c249a965bb38.PNG)<br>
+In order to known the relationship between d and n. I output the meandirection that range of n is from 0 to 1000 and run the experiments 30 times.
+From the graph, we known that The relationship between d and n is an exponential growth with coefficient less than 1. I assume that the relationship between d and n is d=n0.5, because when n equal to 100, d value is about 10. <br>
 ***
 Unit tests result:(Snapshot of successful unit
 test run)![unite test](https://user-images.githubusercontent.com/50298195/133913250-fe430a65-6d92-4fbe-804f-0c6c7ab287e0.PNG)
