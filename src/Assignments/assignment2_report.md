@@ -15,10 +15,7 @@ Reversed-Array required maximum time since we need to compare and swap every ele
 <br> 
 
 ***
-Evidence to support the conclusion:  
-1.Output (Snapshot of Code output in the termi-
-nal)
-
+Evidence to support the conclusion:
 <br>
 1.Graphical Representation:<br>
 Random array:
