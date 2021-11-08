@@ -14,7 +14,7 @@ Determine the relationship between the number of objects (n) and the number of p
 
 ***
 Relationship Conclusion:<br>
-
+ 
 
 <br> 
 
