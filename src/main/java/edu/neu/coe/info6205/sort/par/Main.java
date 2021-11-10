@@ -19,7 +19,9 @@ public class Main {
 
     public static void main(String[] args) {
         processArgs(args);
-        System.out.println("Degree of parallelism: " + ForkJoinPool.getCommonPoolParallelism());
+        int Threads = 6;
+        ParSort.Threads = Threads;
+        System.out.println("Degree of parallelism: " + Threads);
         Random random = new Random();
         int[] array = new int[2000000];
         ArrayList<Long> timeList = new ArrayList<>();

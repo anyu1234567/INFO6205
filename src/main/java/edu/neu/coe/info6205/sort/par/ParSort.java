@@ -11,7 +11,8 @@ import java.util.concurrent.ForkJoinPool;
 class ParSort {
 
     public static int cutoff = 1000;
-    public static ForkJoinPool forkJoinPool = new ForkJoinPool(6);
+    public static int Threads = 6;
+    public static ForkJoinPool forkJoinPool = new ForkJoinPool(Threads);
 
     public static void sort(int[] array, int from, int to) {
         if (to - from < cutoff) Arrays.sort(array, from, to);
